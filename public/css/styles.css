@@ -1,0 +1,39 @@
+.title {
+    margin: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt a {
+    padding: 8px 35px 8px 35px;
+    font-weight: bold;
+}
+
+.num {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* VOTE CSS */
+
