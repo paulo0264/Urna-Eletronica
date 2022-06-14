@@ -36,9 +36,9 @@ class VotoController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
-            'titulo' => 'required',
-            'vote' => 'required',
+            'name' => 'required|min:15',
+            'titulo' => 'requered|max:12',
+            'vote' => 'requered|max:5'
         ]);
 
         Voto::create($request->all());
